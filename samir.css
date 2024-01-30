@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/about_b.gif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 200px;
+}
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    
+    color: #dfd5c6;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li ::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #a4947b;
+    display: block;
+    margin: auto;
+    transition: 0.5s ;
+}
+.nav-links ul li :hover::after{
+    width: 100%;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #7a613c;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+.footer p{
+    font-size: 15px;
+    color: black;
+}
+
+
+
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/img.gif);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+
+/*----------info--------*/
+
+.info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+        color: #905d10;
+    }
+    p{
+        text-align: center;
+        color: #583705;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 22px;
+        padding: 10px;
+    
+    }
+    .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    
+    .col{
+        flex-basis: 31%;
+        background: #ddd9d3;
+        border-radius: 10px ;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+    h3{
+        font-size: 35px;
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .col:hover{
+        box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    
+    }
+    
+
+    
